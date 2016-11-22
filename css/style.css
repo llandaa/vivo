@@ -1,0 +1,240 @@
+body{
+	font-family: FZLanTingHei-L-GBK, GothamBook, helvetica, arial, 'Microsoft Yahei', 微软雅黑, sans-serif;
+}
+/*******nav start******/
+
+.navbar-fixed nav{
+	background: #F8F8F8;
+	z-index: 99999;
+}
+.navbar-fixed nav  a{
+	color:#333;
+}
+.navbar-fixed nav a.active{
+	color:#fff;
+}
+.navbar-fixed nav  li:hover{
+	background: #008cd6;
+}
+.navbar-fixed nav a:hover{
+	color: #fff;
+}
+.navbar-fixed nav  li.active{
+	background: #008cd6;
+}
+.navbar-fixed nav  li.v:hover{
+	background: #f8f8f8;
+}
+.navbar-fixed nav  li.v a:hover{
+	background: #f8f8f8;
+}
+.navbar-fixed nav  li.v a i{
+	color:#ccc;
+	border: 1px solid #ccc;
+	width:32px;
+	height:32px;
+	border-radius:16px;
+	text-align: center;
+	margin-top:16px;
+	line-height: 28px;
+	font-size: 24px;
+}
+.navbar-fixed nav  li.v a i:hover{
+	background: #008CD6;
+	color:#fff;
+}
+#myDropdown.active{
+	top:64px!important;
+}
+#myDropdown{
+	width: 150px!important;
+	
+}
+/*****banner****/
+section{
+	height: 2250px;
+	padding-bottom: 350px;
+}
+.carousel.carousel-slider{
+	position: fixed;top:64px;
+}
+.carousel-item{
+	position: relative;
+	height:603px;
+}
+
+.carousel .indicators {
+	margin: 12px;
+}
+/****正文***/
+.content{
+	position: absolute;top:667px;
+	width: 100%;
+}
+.contain{
+	width: 100%;
+	background: #f6f7f8;
+}
+.video-title{
+	text-align: center;
+	position: absolute;top:50%;left:50%;
+	margin:47px 0 0 -72.5px;
+}
+p,h5,h2{
+	margin:0
+}
+.row .col h2{
+	font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+.row .col .ping{
+	display: inline-block;
+    padding: .5em;
+    line-height: 1em;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    background: #008cd6;
+    margin-right: 5px;
+}
+.containt{
+	width: 100%;
+	background: #edeff1;
+	padding-top:30px;
+	padding-bottom: 20px;
+}
+/*********脚部*******/
+@media only screen and (max-width:985px ) {
+	footer {
+		display: none;
+		position: relative;
+    	width: 100%;
+		height: 60px!important;
+	}
+	.vivo-foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height:60px;
+    width: 100%;
+    background-color: #222;
+    color: #999;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:986px ) {
+	footer {
+		display: none;
+		position: relative;
+    	width: 100%;
+		height: 350px!important;
+	}
+	.vivo-foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height:350px;
+    width: 100%;
+    background-color: #222;
+    color: #999;
+    font-size: 14px;
+}
+}
+
+/*footer{
+	display: none;
+ 	position: relative;
+    width: 100%;
+    height:350px;
+}
+.vivo-foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height:350px;
+    width: 100%;
+    background-color: #222;
+    color: #999;
+    font-size: 14px;
+}*/
+.vivo-logo{
+	position:absolute;left:50%;top:10%;
+	margin-left: -62.5px;
+}
+.vivo-share{
+	position: absolute;left:50%;top:35%;
+	margin-left: -277px;
+}
+.vivo-share .btn-floating{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 20px;
+}
+.vivo-share .btn-floating i{
+	line-height: 50px;
+}
+.vivo-share .line{
+	height:50px!important;
+	width:1px!important;
+	
+}
+.vivo-share .kefu{
+	height:50px;
+	line-height:50px;
+	border-radius:26px;
+	margin-left: 20px;
+}
+.vivo-share .kefu i{
+	/*line-height: 50px;*/
+	margin-right: 5px;
+}
+.kefu:before {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 45px;
+    background: #666;
+    position: absolute;
+    top: 50%;
+    left:368px;
+    margin-top: -22px;
+}
+.vf-f-sitelinks {
+	position: absolute;top:60%;left:50%;
+	margin-left:-371px ;
+   /* text-align: center;*/
+}
+.vf-f-sitelinks a {
+    display: inline-block;
+    margin: 0 6px;
+    color: #666;
+}
+.vf-f-copyright {
+	position: absolute;top:80%;left:50%;
+    margin-left:-129px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #666;
+   }
+footer a:hover{
+	color: #006BAE;
+}
+/******video*****/
+.video-box{
+	display: none;
+	width: 100%;
+	height:100%;
+	position: fixed;top:0;
+	background: rgba(255,255,255,.9);
+	z-index: 999999;
+}
+.video-box video{
+	position: absolute;top: 50%;left:50% ;
+	margin-top:-225px;
+	margin-left:-400px;
+}
